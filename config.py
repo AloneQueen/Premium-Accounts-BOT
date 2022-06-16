@@ -4,10 +4,10 @@ from pyrogram.types import ReplyKeyboardMarkup,InlineKeyboardMarkup, InlineKeybo
 
 load_dotenv("config.env")
 
-BOT_OWNER = 1467358214
+BOT_OWNER = 1272039806
 BOT_TOKEN = environ.get("BOT_TOKEN", None)
 API_ID = int(environ.get("API_ID", 6))
-API_HASH = environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+API_HASH = environ.get("API_HASH", "3315b5f19db17f738044414f8e8d55b2")
 DATABASE = environ.get("DATABASE")
 CHANNEL_ID = environ.get("CHANNEL_ID")
 LOGS = environ.get("LOGS")
